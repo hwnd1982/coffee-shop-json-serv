@@ -1,8 +1,10 @@
 {
-  "dependencies": {
-    "json-server": "^1.0.0-beta.1"
-  },
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server db.json"
+    "start": "node server"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
   }
 }
